@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A609DAB52E2A49EF00D41495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A609DA9E2E2A49EE00D41495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A609DAA52E2A49EE00D41495;
+			remoteInfo = Tuney;
+		};
+		A609DABF2E2A49EF00D41495 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A609DA9E2E2A49EE00D41495 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A609DAA52E2A49EE00D41495;
+			remoteInfo = Tuney;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A609DAA62E2A49EE00D41495 /* Tuney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A609DAB42E2A49EF00D41495 /* TuneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A609DABE2E2A49EF00D41495 /* TuneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A609DAA82E2A49EE00D41495 /* Tuney */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tuney;
+			sourceTree = "<group>";
+		};
+		A609DAB72E2A49EF00D41495 /* TuneyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TuneyTests;
+			sourceTree = "<group>";
+		};
+		A609DAC12E2A49EF00D41495 /* TuneyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TuneyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A609DAA32E2A49EE00D41495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A609DAB12E2A49EF00D41495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A609DABB2E2A49EF00D41495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A609DA9D2E2A49EE00D41495 = {
+			isa = PBXGroup;
+			children = (
+				A609DAA82E2A49EE00D41495 /* Tuney */,
+				A609DAB72E2A49EF00D41495 /* TuneyTests */,
+				A609DAC12E2A49EF00D41495 /* TuneyUITests */,
+				A609DAA72E2A49EE00D41495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A609DAA72E2A49EE00D41495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A609DAA62E2A49EE00D41495 /* Tuney.app */,
+				A609DAB42E2A49EF00D41495 /* TuneyTests.xctest */,
+				A609DABE2E2A49EF00D41495 /* TuneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A609DAA52E2A49EE00D41495 /* Tuney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A609DAC82E2A49EF00D41495 /* Build configuration list for PBXNativeTarget "Tuney" */;
+			buildPhases = (
+				A609DAA22E2A49EE00D41495 /* Sources */,
+				A609DAA32E2A49EE00D41495 /* Frameworks */,
+				A609DAA42E2A49EE00D41495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A609DAA82E2A49EE00D41495 /* Tuney */,
+			);
+			name = Tuney;
+			packageProductDependencies = (
+			);
+			productName = Tuney;
+			productReference = A609DAA62E2A49EE00D41495 /* Tuney.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A609DAB32E2A49EF00D41495 /* TuneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A609DACB2E2A49EF00D41495 /* Build configuration list for PBXNativeTarget "TuneyTests" */;
+			buildPhases = (
+				A609DAB02E2A49EF00D41495 /* Sources */,
+				A609DAB12E2A49EF00D41495 /* Frameworks */,
+				A609DAB22E2A49EF00D41495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A609DAB62E2A49EF00D41495 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A609DAB72E2A49EF00D41495 /* TuneyTests */,
+			);
+			name = TuneyTests;
+			packageProductDependencies = (
+			);
+			productName = TuneyTests;
+			productReference = A609DAB42E2A49EF00D41495 /* TuneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A609DABD2E2A49EF00D41495 /* TuneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A609DACE2E2A49EF00D41495 /* Build configuration list for PBXNativeTarget "TuneyUITests" */;
+			buildPhases = (
+				A609DABA2E2A49EF00D41495 /* Sources */,
+				A609DABB2E2A49EF00D41495 /* Frameworks */,
+				A609DABC2E2A49EF00D41495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A609DAC02E2A49EF00D41495 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A609DAC12E2A49EF00D41495 /* TuneyUITests */,
+			);
+			name = TuneyUITests;
+			packageProductDependencies = (
+			);
+			productName = TuneyUITests;
+			productReference = A609DABE2E2A49EF00D41495 /* TuneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A609DA9E2E2A49EE00D41495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A609DAA52E2A49EE00D41495 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A609DAB32E2A49EF00D41495 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A609DAA52E2A49EE00D41495;
+					};
+					A609DABD2E2A49EF00D41495 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A609DAA52E2A49EE00D41495;
+					};
+				};
+			};
+			buildConfigurationList = A609DAA12E2A49EE00D41495 /* Build configuration list for PBXProject "Tuney" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A609DA9D2E2A49EE00D41495;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A609DAA72E2A49EE00D41495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A609DAA52E2A49EE00D41495 /* Tuney */,
+				A609DAB32E2A49EF00D41495 /* TuneyTests */,
+				A609DABD2E2A49EF00D41495 /* TuneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A609DAA42E2A49EE00D41495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A609DAB22E2A49EF00D41495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A609DABC2E2A49EF00D41495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A609DAA22E2A49EE00D41495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A609DAB02E2A49EF00D41495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A609DABA2E2A49EF00D41495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A609DAB62E2A49EF00D41495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A609DAA52E2A49EE00D41495 /* Tuney */;
+			targetProxy = A609DAB52E2A49EF00D41495 /* PBXContainerItemProxy */;
+		};
+		A609DAC02E2A49EF00D41495 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A609DAA52E2A49EE00D41495 /* Tuney */;
+			targetProxy = A609DABF2E2A49EF00D41495 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A609DAC62E2A49EF00D41495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 795RD76K85;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A609DAC72E2A49EF00D41495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 795RD76K85;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A609DAC92E2A49EF00D41495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tuney/Tuney.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795RD76K85;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuney.Tuney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A609DACA2E2A49EF00D41495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tuney/Tuney.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795RD76K85;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuney.Tuney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A609DACC2E2A49EF00D41495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795RD76K85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuney.TuneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tuney";
+			};
+			name = Debug;
+		};
+		A609DACD2E2A49EF00D41495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795RD76K85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuney.TuneyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tuney.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tuney";
+			};
+			name = Release;
+		};
+		A609DACF2E2A49EF00D41495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795RD76K85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuney.TuneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Tuney;
+			};
+			name = Debug;
+		};
+		A609DAD02E2A49EF00D41495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 795RD76K85;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Tuney.TuneyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Tuney;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A609DAA12E2A49EE00D41495 /* Build configuration list for PBXProject "Tuney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A609DAC62E2A49EF00D41495 /* Debug */,
+				A609DAC72E2A49EF00D41495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A609DAC82E2A49EF00D41495 /* Build configuration list for PBXNativeTarget "Tuney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A609DAC92E2A49EF00D41495 /* Debug */,
+				A609DACA2E2A49EF00D41495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A609DACB2E2A49EF00D41495 /* Build configuration list for PBXNativeTarget "TuneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A609DACC2E2A49EF00D41495 /* Debug */,
+				A609DACD2E2A49EF00D41495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A609DACE2E2A49EF00D41495 /* Build configuration list for PBXNativeTarget "TuneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A609DACF2E2A49EF00D41495 /* Debug */,
+				A609DAD02E2A49EF00D41495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A609DA9E2E2A49EE00D41495 /* Project object */;
+}
