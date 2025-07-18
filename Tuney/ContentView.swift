@@ -26,7 +26,6 @@ struct ContentView: View {
         .frame(minWidth: 500, minHeight: 300)
         .onReceive(NotificationCenter.default.publisher(for: NSApplication.willTerminateNotification)) { _ in
             process?.terminate()
-            
         }
     }
     
