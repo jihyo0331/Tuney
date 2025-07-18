@@ -1,8 +1,10 @@
 // ContentView.swift
 import SwiftUI
+import AppKit
 
 struct ContentView: View {
     @State private var output: String = ""
+    @State private var process: Process?
     
     var body: some View {
         VStack(spacing: 16) {
@@ -22,7 +24,12 @@ struct ContentView: View {
         }
         .padding()
         .frame(minWidth: 500, minHeight: 300)
+        .onReceive(NotificationCenter.default.publisher(for: NSApplication.willTerminateNotification)) { _ in
+            globalProcess?.terminate()
+            
+        }
     }
+    
     
     /// keyhook 바이너리를 실행하고, 표준출력 결과를 `output`에 저장
     func runBinary() {
@@ -34,6 +41,7 @@ struct ContentView: View {
 
         // 2) 프로세스 실행
         let task = Process()
+        self.process = task
         task.executableURL = binaryURL
         let pipe = Pipe()
         task.standardOutput = pipe
