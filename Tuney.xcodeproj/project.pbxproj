@@ -6,6 +6,11 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A609DAD42E2A4BFB00D41495 /* EventTapManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A609DAD32E2A4BF900D41495 /* EventTapManager.swift */; };
+		A609DAD82E2A5A3C00D41495 /* keyhook in CopyFiles */ = {isa = PBXBuildFile; fileRef = A609DAD52E2A59BA00D41495 /* keyhook */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A609DAB52E2A49EF00D41495 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -23,10 +28,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		A609DAD72E2A5A2900D41495 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				A609DAD82E2A5A3C00D41495 /* keyhook in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		A609DAA62E2A49EE00D41495 /* Tuney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tuney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A609DAB42E2A49EF00D41495 /* TuneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A609DABE2E2A49EF00D41495 /* TuneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuneyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A609DAD32E2A4BF900D41495 /* EventTapManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTapManager.swift; sourceTree = "<group>"; };
+		A609DAD52E2A59BA00D41495 /* keyhook */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = keyhook; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,10 +95,12 @@
 		A609DA9D2E2A49EE00D41495 = {
 			isa = PBXGroup;
 			children = (
+				A609DAD32E2A4BF900D41495 /* EventTapManager.swift */,
 				A609DAA82E2A49EE00D41495 /* Tuney */,
 				A609DAB72E2A49EF00D41495 /* TuneyTests */,
 				A609DAC12E2A49EF00D41495 /* TuneyUITests */,
 				A609DAA72E2A49EE00D41495 /* Products */,
+				A609DAD52E2A59BA00D41495 /* keyhook */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +124,7 @@
 				A609DAA22E2A49EE00D41495 /* Sources */,
 				A609DAA32E2A49EE00D41495 /* Frameworks */,
 				A609DAA42E2A49EE00D41495 /* Resources */,
+				A609DAD72E2A5A2900D41495 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -236,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A609DAD42E2A4BFB00D41495 /* EventTapManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
